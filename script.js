@@ -102,6 +102,21 @@ gsap.to(".edq",{
   }
 })
 
+// my Project
+
+gsap.to(".project",{
+  xPercent: -30,
+  duration: 1,
+  ease: "linear",
+  scrollTrigger:{
+       trigger:".my-pro",
+       scroller:"body",
+       start:"top bottom",
+       end:"bottom top",
+       scrub:1,
+  }
+})
+
 // card1
 gsap.from(".card2",{
     y:100,
