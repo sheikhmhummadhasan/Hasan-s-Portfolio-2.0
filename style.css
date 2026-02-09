@@ -494,4 +494,96 @@ footer{
         display: flex;
         justify-content: flex-start;
     }
+    .project-1 img{
+        padding: 0px;
+    }
+    .btn5{
+        margin: 10px 0px 30px;
+        background-color: #ff9114d5;
+    }
+ }
+
+ /* responsive for tab */
+
+ @media screen and (min-width:576px) and (max-width:991px) {
+    html,body{
+        overflow-x: hidden;
+        max-width: 991px;
+    }
+    
+    #bar{
+        display: none;
+    }
+
+    nav{
+        max-width: 991px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .socha-icon {
+        position: absolute;
+        top: 0%;
+        left: 64.6%;
+    }
+    .i{
+        font-size: 10.2rem;
+    }
+    .port{
+        margin-top: 50px;
+    }
+    #img-1{
+        position:absolute;
+        top: 0%;
+        left: 25%;
+    }
+    .info-img{
+        
+        margin: 50px;
+    }
+    .box{
+        margin: 0px;
+        margin-top: 300px;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    #img-2{
+        margin: 0px;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about h1 span{
+        font-size: 10rem;
+        color: #ff7803;
+    }
+    .about h3{
+        text-align: center;
+        color: #000000;
+        font-size: 2.5rem;
+    }
+    .about p{
+        text-align: center;
+        line-height: 30px;
+        color: #000000;
+        font-size: 1.7rem;
+    }
+    .edqution{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn5{
+        padding: 15px 40px;
+        font-size: 1.6rem;
+        background-color: #ff7803;
+    }
+    .project-1 h1{
+        font-size: 3rem;
+        white-space: nowrap;
+    }
  }
