@@ -390,7 +390,9 @@ footer{
     .socha-icon{
         margin: 0px;
         padding: 0px;
-        posi
+        position: absolute;
+        top: 0%;
+        left: 24.8%;
     }
     .i{
         font-size: 5.2rem;

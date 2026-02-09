@@ -9,6 +9,12 @@ tl.from("nav h1",{
     x:-50,
     duration:0.7
 })
+tl.from("#bar",{
+    opacity:0,
+    x:-40,
+    duration:0.7,
+    stagger:0.3
+})
 tl.from(".menu a,.prime-btn",{
     opacity:0,
     x:-40,
