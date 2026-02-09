@@ -91,6 +91,7 @@ nav i{
     position: relative;
     top: 20px;
     left: 220px;
+    color: #ffff;
 }
 
 /* section-02 */
@@ -189,15 +190,33 @@ nav i{
     font-size: 1.2rem;
 }
 .skill{
-    max-width: 1440px;
     display: flex;
-    justify-content: center;
+    gap: 50px;
     align-items: center;
-    margin: 50px auto;
     font-size: 5rem;
     background-color: #22ff0e;
     white-space: nowrap;
     text-align: center;
+    padding: 50px 0px 50px;
+    margin: 50px 0px 50px;
+    width: max-content;
+}
+.edq{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #22ff0e;
+    white-space: nowrap;
+    text-align: center;
+    padding: 50px 0px 50px;
+    margin: 50px 0px 50px;
+    width: max-content;
+}
+.ban h1{
+    font-size: 3rem;
+}
+.banner h1{
+    font-size: 3rem;
 }
 .hvr:hover{
     box-shadow: 4px 5px 10px #7b7b7b;
@@ -241,11 +260,11 @@ nav i{
 }
 .edq-card h3{
     font-size: 1.5rem;
-    color: #7B7B7B;
+    color: #000000;
 }
 .edq-card h4{
     font-size: 1.3rem;
-    color: #7B7B7B;
+    color: #000000;
 }
 
 .edqution{
@@ -292,4 +311,9 @@ footer{
     padding: 30px;
     color: #7b7b7b;
     background-color: #f8f8f8;
+}
+/* Responsive-design */
+
+@media screen and (max-width:576px) {
+    header
 }
