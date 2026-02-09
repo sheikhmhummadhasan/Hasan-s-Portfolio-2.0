@@ -323,11 +323,11 @@ footer{
  }
  .project{
     display: flex;
-    width: 2016;
+    width: 100%;
     gap: 20px;
     padding: 50px 0px;
     margin: 50px 0px;
-    background-color: #22ff0e;
+    /* background-color: #22ff0e; */
  }
  .my-pro h1{
     font-size: 3rem;
@@ -338,6 +338,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
  }
  .project-1{
     width: 50%;
@@ -363,7 +364,132 @@ footer{
  .hr{
     margin-top: 50px;
     max-width: 1440px;
-    width: 5 0%;
+    width: 50%;
     padding: 1.5px;
     background-color: #000000;
+ }
+#bar{
+    display: none;
+}
+ @media screen and (max-width:576px) {
+    html,body{
+        overflow-x: hidden;
+        max-width: 576px;
+    }
+    .menu{
+        display: none;
+    }
+    #bar{
+        display: inline-block;
+        transform: rotate(0deg);
+        font-size: 2rem;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+    .socha-icon{
+        margin: 0px;
+        padding: 0px;
+        posi
+    }
+    .i{
+        font-size: 5.2rem;
+    }
+    .port{
+        margin-top: 10%;
+    }
+    .info-img{
+        white-space: nowrap;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img-1{
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 0%;
+        left: 17%;
+        height: 300px;
+        margin-top: 75px;
+    }
+    .sec-2{
+        max-width: 576px;
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 300px;
+        padding: 0px;
+    }
+    .div{
+        max-width: 576px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #about-me{
+        margin: 0px;
+        margin-left: 93px;
+        margin-bottom: 30px;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-left: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+    .about h1{
+        font-size: 3rem;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+     #img-2{
+        margin: 0px;
+        padding: 0px;
+     }
+    .edqution{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 576px;
+        width: 100%
+    }
+    .edq-card{
+        width: 300px;
+    }
+    
+    .sec-5{
+        background-color: #7b7b7b36;
+    }
+    .project-1{
+        max-width: 576px;
+        width: 100%;
+    }
+    .project-1 img{
+        height: 80rem;
+        padding: 100px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .Sochail-link{
+        display: flex;
+        justify-content: flex-start;
+    }
  }

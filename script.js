@@ -1,5 +1,6 @@
 let mediacome = document.querySelector(".prime-btn");
 let mediago = document.querySelector(".cross");
+let bar = document.querySelector("#bar")
 let body = document.querySelector("body");
 let tl = gsap.timeline();
 
@@ -42,6 +43,14 @@ mediago.addEventListener("click",()=>{
 })
 
 mediacome.addEventListener("click",()=>{
+    gsap.to(".socha-icon,.cross,.socha-icon a",{
+        x:-0,
+        duration:0.7,
+        stagger:0.4,
+        backgroundColor:"black"
+    })
+})
+bar.addEventListener("click",()=>{
     gsap.to(".socha-icon,.cross,.socha-icon a",{
         x:-0,
         duration:0.7,
