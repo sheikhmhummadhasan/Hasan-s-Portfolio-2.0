@@ -392,7 +392,7 @@ footer{
         padding: 0px;
         position: absolute;
         top: 0%;
-        left: 24.8%;
+        left: 35%;
     }
     .i{
         font-size: 5.2rem;
@@ -434,7 +434,7 @@ footer{
     }
     #about-me{
         margin: 0px;
-        margin-left: 93px;
+        margin-left: 110px;
         margin-bottom: 30px;
     }
     .about{
@@ -495,11 +495,19 @@ footer{
         justify-content: flex-start;
     }
     .project-1 img{
-        padding: 0px;
+        height: 50rem;
+        padding: 20px;
     }
     .btn5{
-        margin: 10px 0px 30px;
+        margin: 10px 0px 10px;
         background-color: #ff9114d5;
+    }
+    .hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .project-1{
+        margin-top: 20px;
     }
  }
 
@@ -585,8 +593,5 @@ footer{
     .project-1 h1{
         font-size: 3rem;
         white-space: nowrap;
-    }
-    .project-1 img{
-        height: 50rem;
     }
  }
