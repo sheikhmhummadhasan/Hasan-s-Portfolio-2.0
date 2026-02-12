@@ -586,4 +586,7 @@ footer{
         font-size: 3rem;
         white-space: nowrap;
     }
+    .project-1 img{
+        height: 50rem;
+    }
  }
