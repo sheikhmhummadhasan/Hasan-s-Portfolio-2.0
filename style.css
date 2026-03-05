@@ -1,9 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: monospace;
-}
 @font-face {
     font-family: 'font';
     src: url('./Font OSIRIS/neofolia.otf') format('truetype');
@@ -11,10 +5,34 @@
     font-style: normal;
 }
 
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+body {
     overflow-x: hidden;
 }
-header nav{
+
+.hasan-img-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+}
+
+.i {
+    padding: 30px;
+    font-family: 'font';
+}
+
+header nav {
     max-width: 1440px;
     width: 100%;
     margin: 0px auto;
@@ -25,59 +43,83 @@ header nav{
     background: transparent;
     backdrop-filter: blur(10px);
 }
-nav i{
+
+nav i {
     display: inline-block;
     transform: rotate(45deg);
     cursor: pointer;
 }
-.menu a{
+
+nav h1 {
+    font-family: 'font';
+}
+
+.menu a {
     text-decoration: none;
     color: #7B7B7B;
     font-size: 1.2rem;
+    font-family: 'font';
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.prime-btn{
+
+.prime-btn {
     padding: 13px 25px;
     color: #f8f8f8;
     border: none;
     border-radius: 7px;
     background-color: #040404;
     cursor: pointer;
+    font-family: 'font';
 }
+
 /* section-02 */
-.sec-1{
+.sec-1 {
     max-width: 1440px;
     width: 100%;
     margin: 0px auto;
     /* position: relative; */
 }
-.port{
+
+.port {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 9rem;
 }
-#img-1{
-    position: absolute;
-    top: 0px;
-    left: 450px;
-    height: 500px;
-}
-.info-img{
+
+.info-img {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     margin-left: 200px;
 }
-.info-img h3{
+
+.info-img h3 {
     padding: 0px;
+    font-family: 'font';
 }
-.socha-icon{
+#name,.projects h1,.project h1{
+    font-family: 'font';
+}
+.card h4{
+    font-family: 'font';
+}
+.marg,.btn5{
+    font-family: 'font';
+}
+.ban h1{
+    font-family: 'font';
+}
+.skill h1{
+    font-family: 'font';
+}
+.socha-icon {
     height: 100vh;
     width: 20vw;
     background-color: rgb(0, 0, 0);
@@ -87,79 +129,95 @@ nav i{
     top: 0px;
     right: 0px;
 }
-.socha-icon a{
+
+.socha-icon a {
     display: block;
     padding: 15px;
     text-decoration: none;
     color: #ffff;
 }
-#firstone{
+
+#firstone {
     margin-top: 19px;
 }
-.cross{
-    position: relative;
-    top: 20px;
-    left: 220px;
-    color: #ffff;
+
+.cross {
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   padding: 20px;
+    color: #f8f8f8;
+    border-radius: 25px;
 }
 
 /* section-02 */
-.sec-2{
+.sec-2 {
     max-width: 1440px;
     width: 100%;
     margin: 0px auto;
     margin-top: 200px;
-    padding-right:30px ;
+    padding-right: 30px;
 }
-#about-me{
+
+#about-me {
     display: inline;
     margin-left: 43%;
     font-size: 3rem;
     background-color: #22ff0e;
 }
-.div{
+
+.div {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
 }
-.about{
+
+.about {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
     padding-left: 30px;
 }
-.about h1{
+
+.about h1 {
     font-family: 'font';
     font-size: 5rem;
 }
-.about h3{
+
+.about h3 {
     font-size: 2rem;
     padding: 0px;
     color: #7b7b7b;
 }
-.about p{
+
+.about p {
     font-size: 1.2rem;
     color: #7b7b7b;
 }
-.img img{
+
+.img img {
     height: 300px;
     border-radius: 10px;
 }
-#img-5{
+
+#img-5 {
     height: 200px;
     width: 100%;
 }
-#img-2{
+
+#img-2 {
     margin-left: 50px;
     width: 230px;
 }
-#img-3{
+
+#img-3 {
     width: 230px;
 }
+
 /* section-3 */
-.sec-3{
+.sec-3 {
     max-width: 1440px;
     width: 100%;
     display: flex;
@@ -169,11 +227,13 @@ nav i{
     gap: 90px;
     margin: 40px auto;
 }
-.card i{
+
+.card i {
     font-size: 7rem;
     padding: 20px;
 }
-.card{
+
+.card {
     height: 340px;
     width: 250px;
     border: 2px solid rgb(15, 45, 45);
@@ -181,16 +241,19 @@ nav i{
     border-radius: 15px;
     text-align: center;
 }
-.card h4{
-   font-size: 2rem;
-   margin-bottom: 10px;
+
+.card h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
-.card p{
+
+.card p {
     font-size: 1.1rem;
     padding: 0px 5px;
     color: #7B7B7B;
 }
-.card button{
+
+.card button {
     margin-top: 20px;
     padding: 10px 25px;
     background: none;
@@ -199,7 +262,8 @@ nav i{
     border-radius: 5px;
     font-size: 1.2rem;
 }
-.skill{
+
+.skill {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -211,7 +275,8 @@ nav i{
     margin: 50px 0px 50px;
     width: max-content;
 }
-.edq{
+
+.edq {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -222,22 +287,27 @@ nav i{
     margin: 50px 0px 50px;
     width: max-content;
 }
-.ban h1{
+
+.ban h1 {
     font-size: 3rem;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 3rem;
 }
-.hvr:hover{
+
+.hvr:hover {
     box-shadow: 4px 5px 10px #7b7b7b;
 }
+
 /* section-04 */
-.sec-04{
+.sec-04 {
     max-width: 1440px;
     width: 100%;
     margin: 100px auto;
 }
-.title{
+
+.title {
     width: 100%;
     margin: 50px auto;
     display: flex;
@@ -248,7 +318,8 @@ nav i{
     white-space: nowrap;
     text-align: center;
 }
-.edq-card{
+
+.edq-card {
     height: 400px;
     width: 500px;
     border: 2px solid black;
@@ -256,35 +327,43 @@ nav i{
     font-size: 1.2rem;
     background-color: #f8f8f8;
 }
-.edq-card img{
+
+.edq-card img {
     height: 120px;
     margin-top: 30px;
     margin-left: 20px;
 }
-.edq-card h2,h3,h4{
+
+.edq-card h2,
+h3,
+h4 {
     padding-left: 20px;
     padding-bottom: 10px;
 }
-.edq-card h2{
+
+.edq-card h2 {
     font-size: 2.2rem;
 }
-.edq-card h3{
+
+.edq-card h3 {
     font-size: 1.5rem;
     color: #000000;
 }
-.edq-card h4{
+
+.edq-card h4 {
     font-size: 1.3rem;
     color: #000000;
 }
 
-.edqution{
+.edqution {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 /* footer */
 
-footer{
+footer {
     max-width: 1440px;
     width: 100%;
     margin: 50px auto;
@@ -294,24 +373,29 @@ footer{
     padding: 30px;
     background-color: #f8f8f8;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.contact p{
+
+.contact p {
     color: #7B7B7B;
 }
-.Sochail-link{
+
+.Sochail-link {
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
-.Sochail-link a{
+
+.Sochail-link a {
     text-decoration: none;
     color: #7B7B7B;
 }
-.copyright{
+
+.copyright {
     max-width: 1440px;
     width: 100%;
     margin: 0px auto;
@@ -322,45 +406,52 @@ footer{
     color: #7b7b7b;
     background-color: #f8f8f8;
 }
- /* section-05 */
 
- .sec-5{
+/* section-05 */
+
+.sec-5 {
     max-width: 1440px;
     width: 100%;
     margin: 50px auto;
- }
- .project{
+}
+
+.project {
     display: flex;
     width: 100%;
     gap: 20px;
     padding: 50px 0px;
     margin: 50px 0px;
     /* background-color: #22ff0e; */
- }
- .my-pro h1{
+}
+
+.my-pro h1 {
     font-size: 3rem;
     white-space: nowrap;
- }
- .projects{
+}
+
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
- }
- .project-1{
+}
+
+.project-1 {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
     border-radius: 20px;
- }
- .project-1 img{
+}
+
+.project-1 img {
     height: 90rem;
     border-radius: 10px;
- }
- .btn5{
+}
+
+.btn5 {
     padding: 7px 25px;
     background: #000000;
     color: #fff;
@@ -368,26 +459,33 @@ footer{
     border: none;
     border-radius: 5px;
     margin: 30px 30px;
- }
- .hr{
+}
+
+.hr {
     margin-top: 50px;
     max-width: 1440px;
     width: 50%;
     padding: 1.5px;
     background-color: #000000;
- }
-#bar{
+}
+
+#bar {
     display: none;
 }
- @media screen and (max-width:576px) {
-    html,body{
+
+@media screen and (max-width:576px) {
+
+    html,
+    body {
         overflow-x: hidden;
         max-width: 576px;
     }
-    .menu{
+
+    .menu {
         display: none;
     }
-    #bar{
+
+    #bar {
         display: inline-block;
         transform: rotate(0deg);
         font-size: 2rem;
@@ -395,27 +493,32 @@ footer{
         top: 0%;
         left: 0%;
     }
-    .socha-icon{
+
+    .socha-icon {
         margin: 0px;
         padding: 0px;
         position: absolute;
         top: 0%;
         left: 35%;
     }
-    .i{
+
+    .i {
         font-size: 5.2rem;
     }
-    .port{
+
+    .port {
         margin-top: 10%;
     }
-    .info-img{
+
+    .info-img {
         white-space: nowrap;
         margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #img-1{
+
+    #img-1 {
         margin: 0px;
         padding: 0px;
         position: absolute;
@@ -424,14 +527,16 @@ footer{
         height: 300px;
         margin-top: 75px;
     }
-    .sec-2{
+
+    .sec-2 {
         max-width: 576px;
         width: 100%;
         margin: 0px auto;
         margin-top: 300px;
         padding: 0px;
     }
-    .div{
+
+    .div {
         max-width: 576px;
         display: flex;
         flex-direction: column;
@@ -440,12 +545,14 @@ footer{
         margin: 0px;
         padding: 0px;
     }
-    #about-me{
+
+    #about-me {
         margin: 0px;
         margin-left: 110px;
         margin-bottom: 30px;
     }
-    .about{
+
+    .about {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -456,20 +563,24 @@ footer{
         padding: 10px;
         text-align: center;
     }
-    .about h1{
+
+    .about h1 {
         font-size: 3rem;
     }
-    .img{
+
+    .img {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-     #img-2{
+
+    #img-2 {
         margin: 0px;
         padding: 0px;
-     }
-    .edqution{
+    }
+
+    .edqution {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -477,129 +588,155 @@ footer{
         max-width: 576px;
         width: 100%
     }
-    .edq-card{
+
+    .edq-card {
         width: 300px;
     }
-    
-    .sec-5{
+
+    .sec-5 {
         background-color: #7b7b7b36;
     }
-    .project-1{
+
+    .project-1 {
         max-width: 576px;
         width: 100%;
     }
-    .project-1 img{
+
+    .project-1 img {
         height: 80rem;
         padding: 100px;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .Sochail-link{
+
+    .Sochail-link {
         display: flex;
         justify-content: flex-start;
     }
-    .project-1 img{
+
+    .project-1 img {
         height: 50rem;
         padding: 20px;
     }
-    .btn5{
+
+    .btn5 {
         margin: 10px 0px 10px;
         background-color: #ff9114d5;
     }
-    .hr{
+
+    .hr {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .project-1{
+
+    .project-1 {
         margin-top: 20px;
     }
- }
+}
 
- /* responsive for tab */
+/* responsive for tab */
 
- @media screen and (min-width:576px) and (max-width:991px) {
-    html,body{
+@media screen and (min-width:576px) and (max-width:991px) {
+
+    html,
+    body {
         overflow-x: hidden;
         max-width: 991px;
     }
-    
-    #bar{
+
+    #bar {
         display: none;
     }
 
-    nav{
+    nav {
         max-width: 991px;
         width: 100%;
         margin: 0px auto;
     }
+
     .socha-icon {
         position: absolute;
         top: 0%;
         left: 64.6%;
     }
-    .i{
+
+    .i {
         font-size: 10.2rem;
     }
-    .port{
+
+    .port {
         margin-top: 50px;
     }
-    #img-1{
-        position:absolute;
+
+    #img-1 {
+        position: absolute;
         top: 0%;
         left: 25%;
     }
-    .info-img{
-        
+
+    .info-img {
+
         margin: 50px;
     }
-    .box{
+
+    .box {
         margin: 0px;
         margin-top: 300px;
     }
-    .img{
+
+    .img {
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-    #img-2{
+
+    #img-2 {
         margin: 0px;
     }
-    .about h1{
+
+    .about h1 {
         text-align: center;
     }
-    .about h1 span{
+
+    .about h1 span {
         font-size: 10rem;
         color: #ff7803;
     }
-    .about h3{
+
+    .about h3 {
         text-align: center;
         color: #000000;
         font-size: 2.5rem;
     }
-    .about p{
+
+    .about p {
         text-align: center;
         line-height: 30px;
         color: #000000;
         font-size: 1.7rem;
     }
-    .edqution{
+
+    .edqution {
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-    .btn5{
+
+    .btn5 {
         padding: 15px 40px;
         font-size: 1.6rem;
         background-color: #ff7803;
     }
-    .project-1 h1{
+
+    .project-1 h1 {
         font-size: 3rem;
         white-space: nowrap;
     }
- }
+}
