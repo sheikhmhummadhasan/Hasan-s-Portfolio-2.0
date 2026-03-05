@@ -660,11 +660,12 @@ footer {
     }
 
     .socha-icon {
-        position: absolute;
-        top: 0%;
-        left: 64.6%;
+        height: 600px;
+        width: 300px;
     }
-
+    #chal{
+        width: 400px;
+    }
     .i {
         font-size: 10.2rem;
     }
@@ -676,7 +677,7 @@ footer {
     #img-1 {
         position: absolute;
         top: 0%;
-        left: 25%;
+        left: 100%;
     }
 
     .info-img {
