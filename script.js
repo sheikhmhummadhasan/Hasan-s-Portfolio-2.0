@@ -7,36 +7,36 @@ let tl = gsap.timeline();
 tl.from("nav h1",{
     opacity:0,
     x:-50,
-    duration:0.7
+    duration:0.4
 })
 tl.from("#bar",{
     opacity:0,
     x:-40,
-    duration:0.7,
+    duration:0.4,
     stagger:0.3
 })
 tl.from(".menu a,.prime-btn",{
     opacity:0,
     x:-40,
-    duration:0.7,
+    duration:0.4,
     stagger:0.3
 })
 tl.from(".port",{
     opacity:0,
     scale:0.1,
-    duration:0.8,
+    duration:0.4,
     ease:"power3.out"
 })
 tl.from("#img-1,.info-img h1,.info-img h3",{
     opacity:0,
     x:-50,
-    duration:0.6,
+    duration:0.4,
     stagger:0.4
 })
 tl.from(".socha-icon,.cross,.socha-icon a",{
     x:400,
     opacity:0,
-    duration:1,
+    duration:0.5,
     stagger:0.4
 })
 mediago.addEventListener("click",()=>{

@@ -271,21 +271,23 @@ nav h1 {
     background-color: #22ff0e;
     white-space: nowrap;
     text-align: center;
+    justify-content: space-evenly;
     padding: 50px 0px 50px;
     margin: 50px 0px 50px;
-    width: max-content;
+    width: 5000px;
 }
 
 .edq {
     display: flex;
     gap: 50px;
     align-items: center;
-    background-color: #22ff0e;
+    background-color: #fff200;
     white-space: nowrap;
     text-align: center;
+    justify-content: space-evenly;
     padding: 50px 0px 50px;
     margin: 50px 0px 50px;
-    width: max-content;
+    width: 5000px;
 }
 
 .ban h1 {
@@ -417,11 +419,14 @@ footer {
 
 .project {
     display: flex;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 5000px;
+    text-align: center;
     gap: 20px;
     padding: 50px 0px;
     margin: 50px 0px;
-    /* background-color: #22ff0e; */
+    background-color: #0ef7ff;
 }
 
 .my-pro h1 {
@@ -481,6 +486,22 @@ footer {
         max-width: 576px;
     }
 
+    #img-1{
+        position: absolute;
+        top: 80%;
+        margin-top: 100px;
+        margin-left: 110px;
+        margin-top: 150px;
+        height: 650px;
+    }
+    .info-img{
+        white-space: nowrap;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 560px;
+    }
     .menu {
         display: none;
     }
@@ -495,11 +516,13 @@ footer {
     }
 
     .socha-icon {
-        margin: 0px;
+        width: 250px;
+        height: 500px;
+        /* margin: 0px; */
         padding: 0px;
         position: absolute;
         top: 0%;
-        left: 35%;
+        right: 0%;
     }
 
     .i {
@@ -509,30 +532,14 @@ footer {
     .port {
         margin-top: 10%;
     }
-
-    .info-img {
-        white-space: nowrap;
-        margin: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .sec-1{
+        margin-bottom: 100px;
     }
-
-    #img-1 {
-        margin: 0px;
-        padding: 0px;
-        position: absolute;
-        top: 0%;
-        left: 17%;
-        height: 300px;
-        margin-top: 75px;
-    }
-
     .sec-2 {
         max-width: 576px;
         width: 100%;
         margin: 0px auto;
-        margin-top: 300px;
+        margin-top: 50px;
         padding: 0px;
     }
 
@@ -602,6 +609,9 @@ footer {
         width: 100%;
     }
 
+    .projects{
+        text-align: center;
+    }
     .project-1 img {
         height: 80rem;
         padding: 100px;
